@@ -9,4 +9,3 @@ Each added income or expense can be deleted with a button.
 
 
 
-Learned in  Udemy: The Complete JavaScript Course 2019
