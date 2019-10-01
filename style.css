@@ -121,6 +121,11 @@ body {
 **********************************************/
 
 /***** FORM *****/
+.bottom {
+display: flex;
+flex-direction: column;
+}
+
 .add {
     padding: 14px;
     border-bottom: 1px solid #e7e7e7;
@@ -185,19 +190,20 @@ body {
 
 /***** LISTS *****/
 .container {
-    width: 1000px;
+    
     margin: 60 px auto; /*60*/
+    text-align: center;    
+    display: flex;   
+    
 }
 
-.income {
-    float: left;
-    width: 475px;
-    margin-right: 50px;
+.income {    
+    margin-right: 50px;         
+    flex: 1; 
 }
 
-.expenses {
-    float: left;
-    width: 475px;
+.expenses {   
+    flex: 1;    
 }
 
 h2 {
